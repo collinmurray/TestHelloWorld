@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
     }
     
     public void onClick(View view){
-    	switch(view.getId()){
+    	switch(view.getId()){ 
     	case R.id.button1:
     		float inputValue = Float.parseFloat(text.getText().toString());
     		
